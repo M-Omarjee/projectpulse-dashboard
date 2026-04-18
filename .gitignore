@@ -1,7 +1,37 @@
+# Virtual environments
 .venv/
+.venv311/
+venv/
+env/
+ENV/
+
+# Python cache
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Environment variables
 .env
-data/*.parquet
-assets/demo_video.gif
-dashboards/*.pbix
+.env.local
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
