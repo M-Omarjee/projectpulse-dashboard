@@ -1,6 +1,6 @@
-Project_ID,Phase,Planned_Duration,Actual_Duration,Planned_Cost,Actual_Cost,Completion_Pct,Risk_Level,Status
-NHS-001,Design,162,159,2192743,2515766,55.3,Low,Delayed
-NHS-002,Build,159,173,1739911,1710103,64.1,Low,On Track
-NHS-003,Build,148,169,4030409,3391261,68.2,Medium,Delayed
-NHS-004,Fit-Out,190,195,2928388,2627791,77.6,Low,Delayed
-NHS-005,Build,68,77,3169995,2868323,64.0,High,At Risk
+Project_ID,Category,Start_Date,Phase,Status,Risk_Level,Planned_Duration,Planned_Cost,Actual_Duration,Actual_Cost,Completion_Pct,Final_Actual_Duration,Final_Actual_Cost,Was_Delayed
+NHS-001,Digital,2025-09-29,Build,On Track,Medium,375,591405.25,225,331254.88,60.8,,,
+NHS-002,Estates,2025-06-02,Build,At Risk,Low,574,4151342.15,344,2863550.34,51.0,,,
+NHS-003,Estates,2025-08-03,Build,At Risk,Medium,470,15938867.93,282,11196589.43,52.3,,,
+NHS-004,Transformation,2026-01-18,Testing,On Track,Medium,191,641134.42,114,359544.88,70.9,,,
+NHS-005,Digital,2025-08-06,Build,On Track,Low,465,2965412.85,279,1748605.22,64.5,,,
