@@ -90,8 +90,9 @@ with overview:
     st.markdown("### Delay Probability by Project")
     if not forecast_f.empty:
         fig = px.bar(
-            forecast_f, x="Project_ID", y="Delay_Probability",
-            color="Status", barmode="group", text="Delay_Probability"
+            forecast_f.sort_values("Delay_Probability", ascending=False),
+            x="Project_ID", y="Delay_Probability",
+            color="Status", text="Delay_Probability"
         )
         fig.update_traces(texttemplate="%{text:.1f}%", textposition="outside")
         fig.update_layout(yaxis_title="% Delay Probability", xaxis_title="", plot_bgcolor="rgba(0,0,0,0)")
