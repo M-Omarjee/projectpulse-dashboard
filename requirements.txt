@@ -1,9 +1,15 @@
-pandas
-numpy
-scikit-learn
-python-dotenv
-fastapi
-uvicorn
-requests
-streamlit
-plotly
+# Core data layer
+pandas==3.0.3
+numpy==2.4.4
+scikit-learn==1.8.0
+
+# Frontend
+streamlit==1.57.0
+plotly==6.7.0
+
+# Backend (FastAPI exposes the same data layer over REST)
+fastapi==0.136.1
+uvicorn==0.46.0
+
+# Utilities
+python-dotenv==1.2.2
